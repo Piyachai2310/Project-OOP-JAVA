@@ -1,0 +1,63 @@
+/* เพิ่มสีสวยให้กับ highlight.js */
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333; /* สีของตัวอักษร */
+    background: #fdf6e3; /* สีพื้นหลัง */
+    font-size: 18px;
+  }
+  
+  /* สีของคีย์เวิร์ด */
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-tag {
+    color: #d33682;
+  }
+  
+  /* สีของสตริง */
+  .hljs-string,
+  .hljs-meta-string {
+    color: #859900;
+  }
+  
+  /* สีของค่าเลข */
+  .hljs-number,
+  .hljs-literal,
+  .hljs-attr {
+    color: #6c71c4;
+  }
+  
+  /* สีของคอมเมนต์ */
+  .hljs-comment,
+  .hljs-quote {
+    color: #93a1a1;
+  }
+  
+  /* สีของฟังก์ชัน */
+  .hljs-function,
+  .hljs-title,
+  .hljs-params,
+  .hljs-class .hljs-title {
+    color: #268bd2;
+  }
+  
+  /* สีของตัวแปร */
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-template-tag,
+  .hljs-section,
+  .hljs-link {
+    color: #333;
+  }
+  
+  /* สีของการเน้น */
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  /* สีของข้อความเน้น */
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
